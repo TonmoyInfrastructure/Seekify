@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="342973fb-6875-45b6-ab07-96db76b24a23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Seekify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Seekify.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seekify/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seekify/engines/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seekify/engines/google.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
