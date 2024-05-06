@@ -1,7 +1,14 @@
 import babel
+import typing
+from typing import TYPE_CHECKING
 
 
-def get_from_google(params, eng_traits):
+if TYPE_CHECKING:
+    import logging
+    logger:logging.Logger
+traits: EngineTraits
+
+def get_from_google(params, engine_traits):
     return_value = {
         'language': None,
         'country': None,
@@ -15,4 +22,8 @@ def get_from_google(params, eng_traits):
 
 skfy_loc = params.get('seekify_locale', 'all')
 try:
-    locale = babel
+    locale = babel.Locale.parse(skfy_loc, sep='-')
+except babel.core.UnknownLocaleError:
+    locale = None
+
+lang_english =
